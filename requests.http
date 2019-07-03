@@ -1,0 +1,12 @@
+### get shopping cart
+GET http://localhost:8080/b4351f73-5aeb-4d9a-86b3-16f55e52f7d3
+
+### save one todo
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+	"productId": "cegf90fltp",
+	"shoppingCartId": "b4351f73-5aeb-4d9a-86b3-16f55e52f7d3",
+	"quantity": 3
+}
